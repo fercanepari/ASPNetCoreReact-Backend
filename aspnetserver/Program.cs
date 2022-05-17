@@ -11,7 +11,8 @@ builder.Services.AddCors(options =>
             builder
             .AllowAnyMethod()
             .AllowAnyHeader()
-            .WithOrigins("http://localhost:3000", "https://calm-water-04859b403.azurestaticapps.net", "https://dainty-beijinho-367999.netlify.app/");
+            .WithOrigins("http://localhost:3000", "https://calm-water-04859b403.azurestaticapps.net", "https://dainty-beijinho-367999.netlify.app/",
+                  "https://dainty-beijinho-367999.netlify.app");
         });
 });
 
